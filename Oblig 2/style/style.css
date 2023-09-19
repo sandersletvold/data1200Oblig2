@@ -1,0 +1,18 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    margin: 0px;
+}
+
+.subtitle{
+font-size: larger;
+}
+.paragraf{
+    margin-left: 2vw;
+}
+.underoverskriftH2{
+    font-weight: bold;
+}
+h1.title{
+    font-weight: bolder;
+}

@@ -2,17 +2,41 @@ body{
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1rem;
     margin: 0px;
+    background-color: bisque;
 }
 
 .subtitle{
 font-size: larger;
+margin-left: 2vw;
+margin-right: 2vw;
 }
 .paragraf{
     margin-left: 2vw;
+    margin-right: 5vw;
 }
 .underoverskriftH2{
     font-weight: bold;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 h1.title{
+    margin-top: 55px;
     font-weight: bolder;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+#meny li{
+    overflow: hidden;
+    display: inline;
+    margin-left: 10px;
+}
+#meny{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    background-color:darksalmon;
+    border-bottom: solid black 2px;
+}
+#marsrover{
+    left: 0;
 }

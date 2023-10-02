@@ -40,3 +40,9 @@ h1.title{
 #marsrover{
     left: 0;
 }
+.body1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    margin: 40px;
+    background-color: rgb(255, 255, 255);
+}

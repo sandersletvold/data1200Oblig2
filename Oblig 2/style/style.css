@@ -110,4 +110,44 @@ body{
 .footer-right{
     grid-column: 3/4;
     grid-row: 5;
+}/*\/her så kjødder jeg\/*/
+.meny1 {
+    position: fixed;
+    background-color: black;
+    width: 100vw;
+    margin-top: 0px;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    position: sticky;
+    top: 0;
+}
+.meny1 > li {
+    padding-right: 4rem;
+    list-style-type: none;
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+}
+.meny1 > li > a {
+    text-decoration: none;
+    color: white;
+
+}
+.meny1 > li > a:hover {
+    font-weight: bold;
+}
+@media(min-width: 700px) {
+    .meny1 {
+        display: flex;
+        position: fixed;
+        width: auto;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100vw;
+    }
+}
+.title1{
+    font-weight: bolder;
+    font-size: 35px;
+    margin: 46px;
+
 }

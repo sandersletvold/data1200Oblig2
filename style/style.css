@@ -1,3 +1,4 @@
+/* CSS for index.html */
 body{
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1rem;
@@ -37,8 +38,7 @@ body{
     margin: 40px;
     background-color: rgb(255, 255, 255);
 } 
-
-/* NY CSS FOR INDEX*/ 
+/* Her starter Grid systemet */
 .wrapper{
     display: grid;
     grid-template-columns: 30px auto 40px;
@@ -121,7 +121,8 @@ body{
 .footer-right{
     grid-column: 4/5;
     grid-row: 5;
-}/*\/her så kjødder jeg\/*/
+}
+/* CSS for learningoutcomes.html */
 .meny1 {
     position: fixed;
     background-color: black;

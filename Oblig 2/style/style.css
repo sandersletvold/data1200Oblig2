@@ -120,6 +120,7 @@ body{
     padding-bottom: 0.4rem;
     position: sticky;
     top: 0;
+    margin-left: -40px;
 }
 .meny1 > li {
     padding-right: 4rem;
